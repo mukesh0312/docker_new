@@ -1,0 +1,7 @@
+version: '3.6'
+services:
+  web-container:
+    build: .
+    image: myimage
+    ports:
+      - "9090:80"
