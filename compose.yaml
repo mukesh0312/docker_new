@@ -1,7 +1,7 @@
 version: '3.3'
 services:
-  web-container2:
+  web-container3:
     build: .
-    image: myimage2
+    image: myimage3
     ports:
       - "9091:80"
